@@ -70,17 +70,29 @@ hr {
     color: hsl(215, 32%, 27%);
 }
 
+.card-text {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .5fr .5fr .5fr .5fr;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
 
 p.nft-name {
-    font-size: 1.2rem;
+    font-size: 14px;
     font-weight: 600;
-    color: hsl(0, 0%, 100%) ;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 20px;
 }
 
 p.nft-description {
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 300;
     color: hsl(215, 51%, 70%);
+    padding-bottom: 20px;
 }
 
 .card-price {
@@ -89,14 +101,14 @@ p.nft-description {
 }
 
 p.price {
-    font-size: 1rem;
+    font-size: 12px;
     font-weight: 400;
     color: hsl(178, 100%, 50%);
     padding-right: 20px;
 }
 
 p.time {
-    font-size: 0.8rem;
+    font-size: 12px;
     font-weight: 300;
     color: hsl(215, 51%, 70%);
     padding-left: 30px;
@@ -116,6 +128,6 @@ img.profile-img {
 }
 
 p.profile, img.profile-img {
-    display: inline;
+    
 }
 
