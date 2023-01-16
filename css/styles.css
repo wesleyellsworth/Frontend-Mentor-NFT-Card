@@ -43,92 +43,21 @@ The designs were created to the following widths:
 body {
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
+    margin: 0 auto;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
     width: 240px;
-    height: 420px;
     background-color: hsl(216, 50%, 16%);
+}
+
+img.nft-img {
     border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    align-self: center;
+    padding: 12px;
 }
-
-img.nft-image {
-    max-width: 90%;
-    border-radius: 10px;
-    position: relative;
-    top: 10px;
-    left: 12px;
-}
-
-hr {
-    max-width: 95%;
-    color: hsl(215, 32%, 27%);
-}
-
-.card-text {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: .5fr .5fr .5fr .5fr;
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-
-}
-
-p.nft-name {
-    font-size: 14px;
-    font-weight: 600;
-    color: hsl(0, 0%, 100%);
-    padding-bottom: 20px;
-    align-content:space-between;
-}
-
-p.nft-description {
-    font-size: 14px;
-    font-weight: 300;
-    color: hsl(215, 51%, 70%);
-    padding-bottom: 
-}
-
-.card-price {
-    display: inline-flex;
-    
-}
-
-p.price {
-    font-size: 12px;
-    font-weight: 400;
-    color: hsl(178, 100%, 50%);
-    padding-right: 20px;
-}
-
-p.time {
-    font-size: 12px;
-    font-weight: 300;
-    color: hsl(215, 51%, 70%);
-    padding-left: 30px;
-}
-
-img.profile-img {
-    border: 1px solid #fff;
-    border-radius: 50%;
-    max-width: 25px;
-    margin-top: 15px;
-    margin-right: 15px;
-}
-
-.profile {
-    color: hsl(0, 0%, 100%);
-    font-size: 10px;
-}
-
-p.profile, img.profile-img {
-    
-}
-
