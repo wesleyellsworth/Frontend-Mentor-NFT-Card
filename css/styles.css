@@ -86,13 +86,14 @@ p.nft-name {
     font-weight: 600;
     color: hsl(0, 0%, 100%);
     padding-bottom: 20px;
+    align-content:space-between;
 }
 
 p.nft-description {
     font-size: 14px;
     font-weight: 300;
     color: hsl(215, 51%, 70%);
-    padding-bottom: 20px;
+    padding-bottom: 
 }
 
 .card-price {
