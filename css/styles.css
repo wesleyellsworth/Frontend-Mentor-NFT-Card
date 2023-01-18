@@ -50,9 +50,8 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 100px auto;
-    width: 240px;
+    max-width: 260px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 1em;
 }
@@ -60,9 +59,10 @@ body {
 .card-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: nowrap;
-    gap: 10px;
+    /* box-shadow: inset 0 -3em 3em hsl(215, 32%, 27%); */
+
 }
 
 img.nft-img {
@@ -82,55 +82,61 @@ p.nft-description {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
     font-size: .7rem;
-    padding: 0px 1em 1em 1em;
+    padding: 0px 1.5em 1.5em 1.5em;
 }
 
 .card-price {
     display: inline-flex;
-    padding: 0 1em 1em 1em;
+    align-items: flex-start;
+    padding: 0 1.5em 1.5em 1.5em;
 }
 
 img.eth-img, .clock-img {
-    width: 8px;
-    height: 10px;
-    margin-right: 2px;
+    width: .5em;
+    height: .5em;
 }
 
 p.nft-price {
     font-size: .6em;
+    font-weight: 600;
     color: hsl(178, 100%, 50%);
-    padding-right: 10px;
-    margin-right: 50px;
+    margin-right: 70px;
     text-align: left;
 }
 
 p.time-remaining {
     font-size: .6em;
+    font-weight: 500;
     color: hsl(215, 51%, 70%);
     
 }
 
 .profile {
     display: flex;
-    align-items: center;
-    margin: 10px auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* TOP RIGHT BOTTOM LEFT */
+    margin: .5em 1em 1em 1em;
 }
 
 img.profile-img {
-    max-width: 15%;
+    max-width: 10%;
     border: 1px solid #fff;
     border-radius: 50%;
     
 
 }
 
-p.profile {
+.profile p {
     font-size: .6em;
     color: #fff;
-
+    margin: .5 1em 1em 1em;
 }
 
 hr {
     width: 90%;
     margin: auto;
+    border: none;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
 }
